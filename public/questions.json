@@ -1,66 +1,65 @@
 [
   {
     "id": 1,
-    "categorie": "F1",
-    "libelle": "Qui est le champion du monde F1 2021 ?",
+    "catégorie": "F1",
+    "libellé": "Qui est le champion du monde F1 2021 ?",
     "options": ["Hamilton", "Verstappen", "Leclerc", "Alonso"],
-    "bonne_reponse": "Verstappen"
+    "bonne_réponse": "Verstappen"
   },
   {
     "id": 2,
-    "categorie": "Anime",
-    "libelle": "Dans Naruto, qui est le Hokage 7 ?",
+    "catégorie": "Anime",
+    "libellé": "Dans Naruto, qui est le Hokage 7 ?",
     "options": ["Kakashi", "Naruto", "Minato", "Tsunade"],
-    "bonne_reponse": "Naruto"
+    "bonne_réponse": "Naruto"
   },
   {
     "id": 3,
-    "categorie": "Sport",
-    "libelle": "Qui le president de la NBA ?",
+    "catégorie": "Sport",
+    "libellé": "Qui le president de la NBA ?",
     "options": ["Kakashi", "Mr", "Minato", "Tsunade"],
-    "bonne_reponse": "Mr"
+    "bonne_réponse": "Mr"
   },
   {
     "id": 4,
-    "categorie": "Sport",
-    "libelle": "Qui est le meilleur joueur de NBA ?",
+    "catégorie": "Sport",
+    "libellé": "Qui est le meilleur joueur de NBA ?",
     "options": ["Kakashi", "LeBron James", "Minato", "Tsunade"],
-    "bonne_reponse": "LeBron James"
+    "bonne_réponse": "LeBron James"
   },
   {
     "id":5,
-    "categorie": "Moto GP",
-    "libelle": "Qui est le champion du monde Moto GP 2021 ?",
+    "catégorie": "Moto GP",
+    "libellé": "Qui est le champion du monde Moto GP 2021 ?",
     "options": ["Quartararo", "Bagnaia", "Marquez", "Miller"],
-    "bonne_reponse": "Quartararo"
+    "bonne_réponse": "Quartararo"
   },
   {
     "id":7,
-    "categorie": "Manga",
-    "libelle": "Qui est le personnage principal de One Piece ?",
+    "catégorie": "Manga",
+    "libellé": "Qui est le personnage principal de One Piece ?",
     "options": ["Luffy", "Zoro", "Nami", "Sanji"],
-    "bonne_reponse": "Luffy"
+    "bonne_réponse": "Luffy"
   },
   {
     "id":8,
-    "categorie": "Manga",
-    "libelle": "Qui est le personnage principal de Dragon Ball ?",
+    "catégorie": "Manga",
+    "libellé": "Qui est le personnage principal de Dragon Ball ?",
     "options": ["Goku", "Vegeta", "Gohan", "Piccolo"],
-    "bonne_reponse": "Goku"
+    "bonne_réponse": "Goku"
   },
   {
     "id":9,
-    "categorie": "Manga",
-    "libelle": "Qui est le personnage principal de Naruto ?",
+    "catégorie": "Manga",
+    "libellé": "Qui est le personnage principal de Naruto ?",
     "options": ["Naruto", "Sasuke", "Sakura", "Kakashi"],
-    "bonne_reponse": "Naruto"
+    "bonne_réponse": "Naruto"
   },
   {
     "id":10,
-    "categorie": "Manga",
-    "libelle": "Qui est le personnage principal de My Hero Academia ?",
+    "catégorie": "Manga",
+    "libellé": "Qui est le personnage principal de My Hero Academia ?",
     "options": ["Deku", "All Might", "Bakugo", "Todoroki"],
-    "bonne_reponse": "Deku"
+    "bonne_réponse": "Deku"
   }
-
 ]

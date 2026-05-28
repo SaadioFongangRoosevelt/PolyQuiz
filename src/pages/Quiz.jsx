@@ -1,11 +1,5 @@
-import HookConsumer from "../components/HookConsumer"
+import QuizEngine from "./QuizEngine";
 
-export default function Quiz()
-{
-    return (
-        <>
-            <h1>Page des Quiz</h1>
-            <HookConsumer/>
-        </>
-    )
+export default function Quiz() {
+  return <QuizEngine />;
 }
