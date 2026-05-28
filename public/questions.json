@@ -15,17 +15,17 @@
   },
   {
     "id": 3,
-    "catégorie": "Sport",
-    "libellé": "Qui le president de la NBA ?",
-    "options": ["Kakashi", "Mr", "Minato", "Tsunade"],
-    "bonne_réponse": "Mr"
+    "catégorie": "NBA",
+    "libellé": "Lequel de ces joueurs n'a jamais remporté le titre de MVP ?",
+    "options": ["LeBron James", "Kareem Abdul-Jabbar", "Magic Johnson", "Kobe Bryant"],
+    "bonne_réponse": "Kobe Bryant"
   },
   {
     "id": 4,
-    "catégorie": "Sport",
-    "libellé": "Qui est le meilleur joueur de NBA ?",
-    "options": ["Kakashi", "LeBron James", "Minato", "Tsunade"],
-    "bonne_réponse": "LeBron James"
+    "catégorie": "Football",
+    "libellé": "Qui est le ballon d'or 2025 ?",
+    "options": ["Mbappe", "Ousmane Dembele", "James Rodriguuez", "Lamine Yamal"],
+    "bonne_réponse": "Ousmane Dembele"
   },
   {
     "id":5,

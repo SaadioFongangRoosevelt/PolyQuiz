@@ -1,0 +1,153 @@
+.resultats-container {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  text-align: center;
+  width: 100%;
+}
+
+.resultats-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  letter-spacing: -0.02em;
+}
+
+/* ── Card principale ── */
+.resultats-card {
+  background-color: var(--bg-primary);
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.result-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.result-item:last-child {
+  border-bottom: none;
+}
+
+.result-label {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.result-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.result-value.score-highlight {
+  color: var(--primary-color);
+  font-size: 1.4rem;
+}
+
+/* ── Score central ── */
+.score-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 20px;
+  background-color: var(--bg-secondary);
+  border-radius: 10px;
+  border: 2px solid var(--primary-color);
+}
+
+.score-large {
+  font-size: 3rem;
+  font-weight: 800;
+  color: var(--primary-color);
+  line-height: 1;
+  font-family: "Courier New", monospace;
+}
+
+.score-sub {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+/* ── Barre de progression ── */
+.score-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.score-bar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score-bar-text {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.score-bar-percent {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.score-bar-fill {
+  width: 100%;
+  height: 10px;
+  background-color: var(--border-color);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.score-bar-progress {
+  height: 100%;
+  background: linear-gradient(90deg, var(--primary-color), var(--success-color));
+  border-radius: 99px;
+  transition: width 0.8s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ── Actions ── */
+.resultats-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.resultats-actions button {
+  flex: 1;
+  min-height: 50px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .resultats-title {
+    font-size: 1.6rem;
+  }
+
+  .score-large {
+    font-size: 2.4rem;
+  }
+
+  .resultats-actions {
+    flex-direction: column;
+  }
+
+  .resultats-actions button {
+    width: 100%;
+  }
+}
